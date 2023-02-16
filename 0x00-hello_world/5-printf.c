@@ -3,6 +3,8 @@
 /**
  * main Entry - point
  *
+ * Description: 'the program's description'
+ *
  * Return: 0 (success)
  */
 
