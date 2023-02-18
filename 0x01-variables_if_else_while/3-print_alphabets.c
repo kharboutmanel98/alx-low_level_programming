@@ -12,18 +12,18 @@
 int main(void)
 
 {
-	char l = 'a';
-	char U = 'A';
+	char lower = 'a';
+	char Upper = 'A';
 
-	while (l <= 'a')
+	while (lower <= 'a')
 	{
-		putchar(l);
-		l++;
+		putchar(lower);
+		lower++;
 	}
-	while (U <= 'A')
+	while (Upper <= 'A')
 	{
-		putchar(U);
-		U++;
+		putchar(Upper);
+		Upper++;
 	}
 	putchar('\n');
 	return (0);
