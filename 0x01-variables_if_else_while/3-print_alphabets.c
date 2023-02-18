@@ -8,9 +8,7 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
-
 {
 	char lower = 'a';
 	char Upper = 'A';
@@ -25,6 +23,7 @@ int main(void)
 		putchar(Upper);
 		Upper++;
 	}
+
 	putchar('\n');
 	return (0);
 }
