@@ -11,17 +11,19 @@
 int main(void)
 {
 	char lower = 'a';
-	char Upper = 'A';
+	char upper = 'A';
 
-	while (lower <= 'a')
+	while (lower <= 'z')
 	{
 		putchar(lower);
+
 		lower++;
 	}
-	while (Upper <= 'A')
+	while (upper <= 'Z')
 	{
-		putchar(Upper);
-		Upper++;
+		putchar(upper);
+
+		upper++;
 	}
 
 	putchar('\n');
